@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Control remoto </title>
+</head>
+<body>
+    <h1> Musica </h1>
+    <div>
+        <button onclick="changeChannel(1)"> 1 </button>
+        <button onclick="changeChannel(2)"> 2 </button>
+        <button onclick="changeChannel(3)"> 3 </button><br>
+        <button onclick="changeChannel(4)"> 4 </button>
+        <button onclick="changeChannel(5)"> 5 </button>
+        <button onclick="changeChannel(6)"> 6 </button><br>
+        <button onclick="changeChannel(7)"> 7 </button>
+        <button onclick="changeChannel(8)"> 8 </button>
+        <button onclick="changeChannel(9)"> 9 </button><br>
+        <button onclick="changeChannel(0)"> 0 </button><br>  
+        <button onclick="changeChannel('salir')"> salir </button>
+        <button onclick="changeChannel('apagar')"> apagar </button><br>
+    </div>
+
+    <div>
+        <iframe id="display" width="560" height="315" src="https://www.youtube.com/embed/7IJAvs8iOYE?si=4n2fUJWxJNi4MukB?autoplay=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+   <div id="play"></div>
+    <script src="js.js"></script>
+    
+</body>
+</html>
